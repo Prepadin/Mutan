@@ -7,7 +7,7 @@ import { useStore } from 'lib/store'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import Lenis from '../../packages/lenis/dist/lenis.mjs'
+import Lenis from 'packages/lenis/dist/lenis.mjs'
 import s from './layout.module.scss'
 
 
