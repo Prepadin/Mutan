@@ -1,7 +1,6 @@
 import { useFrame } from '@studio-freight/hamo'
 import cn from 'clsx'
 import { CustomHead } from 'components/custom-head'
-//import { Footer } from 'components/footer'
 import { Intro } from 'components/intro'
 import { Scrollbar } from 'components/scrollbar'
 import { useStore } from 'lib/store'
