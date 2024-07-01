@@ -27,7 +27,7 @@ export default function Model() {
 
     return(
         <group scale={viewport.width / 9}>
-             <Text color={"#6e6b6b"}  fontSize={1.6} font='fonts/PPNeueMontreal-Bold.otf' position={[0, 0, -.5]}>
+             <Text color={"#6e6b6b"}  fontSize={1.6} font='fonts/Slussen-Bold.otf' position={[0, 0, -.5]}>
                 PREPAD
              </Text>
              <Float speed={4} rotationIntensity={2} floatIntensity={2} floatingRange={[-0.3, 0.3]}>

@@ -523,13 +523,20 @@ $intro-duration: 2050ms;
 
 .containerweb {
   display: flex;
+  width: 100%;
   gap: 10em;
   // flex-wrap: wrap;
   // align-content: center;
-  margin: 5%;
+  //margin: 5%;
+  padding-left: 4%;
+  padding-bottom: 5%;
   flex-wrap: wrap;
   flex-grow: 1;
 }
+
+// .containerbot {
+
+// }
 
 .containerweb > * {
   flex-basis: 100%;
@@ -539,10 +546,16 @@ $intro-duration: 2050ms;
 
 .separate {
   display: flex;
-  margin-top: 5%;
+  //margin-top: 5%;
+  padding-top: 5%;
 }
 
 .leviblok {
-  margin-right: 10%;
+ // padding-right: 10%;
+  margin-right: 4%;
   
+}
+
+.drugo {
+ padding-right: 4%;
 }

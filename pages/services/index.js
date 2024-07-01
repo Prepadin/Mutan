@@ -36,7 +36,7 @@ export default function Services ()  {
       duration: 5,
       scrollTrigger: {
         trigger: "#thirdCircle",
-        markers: true,
+        markers: false,
         start: "top center",
         end: "bottom 80px",
         scrub: true
@@ -50,7 +50,7 @@ export default function Services ()  {
       duration: 5,
       scrollTrigger: {
         trigger: "#thirdCircle",
-        markers: true,
+        markers: false,
         start: "top center",
         end: "bottom 80px",
         scrub: true
@@ -69,7 +69,7 @@ export default function Services ()  {
       duration: 5,
       scrollTrigger: {
         trigger: "#firstCircle",
-        markers: true,
+        markers: false,
         start: "top center",
         end: "bottom 80px",
         scrub: true
@@ -83,7 +83,7 @@ export default function Services ()  {
       duration: 5,
       scrollTrigger: {
         trigger: "#firstCircle",
-        markers: true,
+        markers: false,
         start: "top center",
         end: "bottom 80px",
         scrub: true
@@ -103,7 +103,7 @@ export default function Services ()  {
         duration: 5,
         scrollTrigger: {
           trigger: "#secondCircle",
-          markers: true,
+          markers: false,
           start: "top center",
           end: "bottom 80px",
           scrub: true
@@ -117,7 +117,7 @@ export default function Services ()  {
         duration: 5,
         scrollTrigger: {
           trigger: "#secondCircle",
-          markers: true,
+          markers: false,
           start: "top center",
           end: "bottom 80px",
           scrub: true
@@ -155,6 +155,7 @@ export default function Services ()  {
          <Character value={paragraph}/>
          <div style={{height: "50vh"}}></div>
         <div className={s.containerweb}>
+          {/* <div className={s.containerbot}> */}
           <div id='firstCircle' className='prvo'>
           <div className={s.redos}>
             <h2 className={cn(s.sticky, 'h3')}>
@@ -162,7 +163,7 @@ export default function Services ()  {
             </h2>
           </div>          
            </div>
-        <div className='drugo'>
+        <div className={s.drugo}>
         <div>
         <p className="p">
           For each project, we combine technical and methodological skills with creative insight and a profound sensitivity toward content. In our office and in our studio we are able to develop both the executive and the artistic aspects of every project.
@@ -213,6 +214,7 @@ export default function Services ()  {
         </div>
         </div>
         </div>
+        {/* </div> */}
         
         <div style={{height: "10vh"}}></div>
         <div className={s.containerweb}>
@@ -223,7 +225,7 @@ export default function Services ()  {
             </h2>          
             </div>
         </div>
-        <div className='drugo'>
+        <div className={s.drugo}>
         <div>
         <p className="p">
         We create advanced web products that resonate with audiences while providing our partners with a competitive edge. Everything we create is made from scratch, so your online presence will be spectacularly unique.
@@ -284,7 +286,7 @@ export default function Services ()  {
             </h2>          
         </div>
         </div>
-        <div className='drugo'>
+        <div className={s.drugo}>
         <div>
         <p className="p">
         Authentic content is essential in the digital world. We work with brands to identify their unique content needs and deliver custom-made assets at the highest quality, down to the last detail.
@@ -324,7 +326,7 @@ export default function Services ()  {
           Photo & Video
             </h3>
             </div>
-            <div style={{height: "2vh"}}></div>
+            <div style={{height: "4vh"}}></div>
           <div>
           <h3 className={cn(s.title, 'h5')}>
           3D
@@ -336,7 +338,7 @@ export default function Services ()  {
         </div>
         </div>
           
-        <div style={{height: "100vh"}}></div>
+        <div style={{height: "60vh"}}></div>
         </main>
         <Footer/>
         </Layout>

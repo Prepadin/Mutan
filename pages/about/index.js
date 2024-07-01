@@ -284,6 +284,8 @@ export default function About() {
           </HorizontalSlides>
         </div>
       </section>
+          
+      <div style={{height: "60vh"}}></div>
       <Footer/>
             </Layout>
         </>

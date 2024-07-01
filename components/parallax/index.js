@@ -25,6 +25,7 @@ export function Parallax({
       scrollTrigger: {
         id: id,
         trigger: trigger.current,
+        markers: false,
         scrub: true,
         start: 'top bottom',
         end: 'bottom top',

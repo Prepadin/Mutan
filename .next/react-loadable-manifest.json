@@ -112,11 +112,5 @@
     "files": [
       "static/chunks/components_webglos_index_js.js"
     ]
-  },
-  "pages\\services\\index.js -> components/webglos": {
-    "id": "pages\\services\\index.js -> components/webglos",
-    "files": [
-      "static/chunks/components_webglos_index_js.js"
-    ]
   }
 }

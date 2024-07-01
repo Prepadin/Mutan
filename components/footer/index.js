@@ -48,7 +48,7 @@ export const Footer = () => {
       </div>
       <div className={s.bottom}>
         <div className={s.links}>
-          <Link
+          {/* <Link
             className={cn(s.link, 'p-xs')}
             href="https://twitter.com/studiofreight"
           >
@@ -74,7 +74,7 @@ export const Footer = () => {
             href="https://darkroom.studiofreight.com"
           >
             Darkroom
-          </Link>
+          </Link> */}
         </div>
         <p className={cn('p-xs', s.tm)}>
           <span>©</span> {new Date().getFullYear()} Prepad
@@ -83,7 +83,7 @@ export const Footer = () => {
           className={cn(s.cta, 'hide-on-desktop')}
           arrow
           icon={<Mail />}
-          href="https://github.com/studio-freight/lenis"
+          href="mailto:info@prepad.si"
         >
           Let's make work together
         </Button>
