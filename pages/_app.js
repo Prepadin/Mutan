@@ -70,21 +70,13 @@ function MyApp({ Component, pageProps }) {
       {/* Google Tag Manager - Global base code */}
       {process.env.NODE_ENV !== 'development' && (
         <>
-          <Script
-            async
-            strategy="worker"
-            src={`https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`}
-          />
-          <Script
-            id="gtm-base"
-            strategy="worker"
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GTM_ID}');`,
-            }}
-          />
+          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KQRB45MKY4" />
+        <Script id="gtag">
+            {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KQRB45MKY4');`}
+        </Script>
         </>
       )}
 

@@ -108,6 +108,7 @@ export function Layout({
 
   return (
     <>
+    
       <CustomHead {...seo} />
       <div className={cn(`theme-${theme}`, s.layout, className)}>
         <PageTransition />
