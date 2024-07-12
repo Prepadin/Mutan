@@ -66,20 +66,7 @@ function MyApp({ Component, pageProps }) {
           <Stats />
         </>
       )}
-
-      {/* Google Tag Manager - Global base code */}
-      {process.env.NODE_ENV !== 'development' && (
-        <>
-          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KQRB45MKY4" />
-        <Script id="gtag">
-            {`window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-KQRB45MKY4');`}
-        </Script>
-        </>
-      )}
-
+     
       <RealViewport />
       <Component {...pageProps} />
     </>
