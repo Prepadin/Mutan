@@ -83,18 +83,6 @@
       "static/chunks/components_webglos_index_js.js"
     ]
   },
-  "pages\\home\\index.js -> /components/rock": {
-    "id": "pages\\home\\index.js -> /components/rock",
-    "files": [
-      "static/chunks/components_rock_index_js.js"
-    ]
-  },
-  "pages\\home\\index.js -> components/webglos": {
-    "id": "pages\\home\\index.js -> components/webglos",
-    "files": [
-      "static/chunks/components_webglos_index_js.js"
-    ]
-  },
   "pages\\services\\index.js -> components/webglos": {
     "id": "pages\\services\\index.js -> components/webglos",
     "files": [

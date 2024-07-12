@@ -104,7 +104,7 @@ const { scrollYProgress } = useScroll({
               </h3>
               {/* <div style={{height: "1vh"}}></div> */}
               <p className='p'>
-                X <br/>
+               
                <a href="https://www.instagram.com/prepad.si"> INSTAGRAM </a>  <br/>
                <a href="https://www.youtube.com/@Prepad-doo"> YOUTUBE </a>
               </p>
