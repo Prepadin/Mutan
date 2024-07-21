@@ -7,7 +7,7 @@ import { useScroll } from 'hooks/use-scroll'
 //import { GTM_ID } from 'lib/analytics'
 import { useStore } from 'lib/store'
 import dynamic from 'next/dynamic'
-import Script from 'next/script'
+//import Script from 'next/script'
 import { useEffect } from 'react'
 import 'styles/global.scss'
 
