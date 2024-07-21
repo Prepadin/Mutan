@@ -4,7 +4,7 @@ import { RealViewport } from 'components/real-viewport'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { useScroll } from 'hooks/use-scroll'
-import { GTM_ID } from 'lib/analytics'
+//import { GTM_ID } from 'lib/analytics'
 import { useStore } from 'lib/store'
 import dynamic from 'next/dynamic'
 import Script from 'next/script'
@@ -67,26 +67,7 @@ function MyApp({ Component, pageProps }) {
         </>
       )}
 
-      {/* Google Tag Manager - Global base code */}
-      {process.env.NODE_ENV !== 'development' && (
-        <>
-          <Script
-            async
-            strategy="worker"
-            src={`https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`}
-          />
-          <Script
-            id="gtm-base"
-            strategy="worker"
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GTM_ID}');`,
-            }}
-          />
-        </>
-      )}
+      
 
       <RealViewport />
       <Component {...pageProps} />

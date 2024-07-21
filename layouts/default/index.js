@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Lenis from 'packages/lenis/dist/lenis.mjs'
 import s from './layout.module.scss'
-
+import Script from 'next/script'
 
 const Curved = dynamic(() => import ("components/curved"), {
   ssr: false,
@@ -108,6 +108,23 @@ export function Layout({
 
   return (
     <>
+    <head>
+      <Script
+        strategy='lazyOnload'
+        src={`https://www.googletagmanager.com/gtag/js?id=G-KQRB45MKY4`}
+      />
+
+      <Script id='' strategy='lazyOnload'>
+        {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KQRB45MKY4', {
+              page_path: window.location.pathname,
+              });
+          `}
+      </Script>
+      </head>
     
       <CustomHead {...seo} />
       <div className={cn(`theme-${theme}`, s.layout, className)}>
