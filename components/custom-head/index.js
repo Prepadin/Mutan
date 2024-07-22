@@ -55,20 +55,21 @@ export function CustomHead({ title = '', description, image, keywords }) {
           href="/pp.svg"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff98a2" />
+        <link rel="mask-icon" href="/pp.svg" color="#ff98a2" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#ffffff" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/pp.svg" />
         {/* END FAVICON */}
       </NextHead>
       <NextSeo
-        title={title}
-        description={description}
+        title='Prepad. Multidisciplinary Creative Studio.'
+        description='Prepad is a design & technology firm working globally with passion.'
         openGraph={{
           title,
           description,
           type: 'website',
           locale: 'en_US',
+          url: 'https://prepad.si',
           images: [
             {
               //url: image ? image.url : 'https://lenis.studiofreight.com/og.png',
@@ -82,7 +83,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
           site_name: '',
         }}
         twitter={{
-          handle: '@studiofreight',
+          handle: '@prepad',
           cardType: 'summary_large_image',
         }}
       />
