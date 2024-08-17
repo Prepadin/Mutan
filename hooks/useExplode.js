@@ -42,7 +42,7 @@ export const useExplode = (group, { distance = 3, enableRotation = true }) => {
     group.current?.rotateY(MathUtils.degToRad(0.2))
     setOffset((prevOffset) => {
       const newOffset = prevOffset + direction * delta * 0.05; // Adjust the speed by changing the multiplier
-      if (newOffset > 0.1 || newOffset < 0) {
+      if (newOffset > 0.2 || newOffset < 0) {
         setDirection(-direction); // Reverse the direction
         return THREE.MathUtils.clamp(newOffset, 0, 1); // Clamp the offset between 0 and 1
       }

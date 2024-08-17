@@ -13,7 +13,7 @@ import dynamic from "next/dynamic"
 import { ScrollControls } from "@react-three/drei";
 
 
-const Cube = dynamic(() => import ("components/explosion/Model4.js"), {
+const Cube = dynamic(() => import ("components/explosion/Model5.js"), {
     ssr: false,
 })
 
