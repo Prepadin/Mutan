@@ -62,8 +62,8 @@ export function CustomHead({ title = '', description, image, keywords }) {
         {/* END FAVICON */}
       </NextHead>
       <NextSeo
-        title='Prepad. Multidisciplinary Creative Studio.'
-        description='Prepad is a design & technology firm working globally with passion.'
+        title='Prepad'
+        description='We are Prepad – global content, data, media, and tech powerhouse. Our solution is simple and singular: Disrupting the industry, driven by digital.'
         openGraph={{
           title,
           description,

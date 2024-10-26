@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://lenis.studiofreight.com
+Host: https://prepad.si
 
 # Sitemaps
-Sitemap: https://lenis.studiofreight.com/sitemap.xml
+Sitemap: https://prepad.si/sitemap.xml
