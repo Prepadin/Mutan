@@ -1,18 +1,18 @@
 {
-  "name": "Lenis",
-  "short_name": "Lenis Smooth Scroll",
-  "description": "How smooth scroll should be.",
+  "name": "Prepad",
+  "short_name": "Prepad",
+  "description": "Disrupting the industry, driven by digital.",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "/pp.svg",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/svg",
       "purpose": "maskable"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "/pp.svg",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/svg",
       "purpose": "any"
     }
   ],
